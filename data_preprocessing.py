@@ -7,7 +7,7 @@ import os
 # 数据爬取
 def data_spider(gif_save_path, gif_num, img_path):
 
-    url = "https://pass.hust.edu.cn/cas/code"
+    url = ""
     # 创建文件夹
     if not os.path.exists(gif_save_path):
         os.makedirs(gif_save_path)
